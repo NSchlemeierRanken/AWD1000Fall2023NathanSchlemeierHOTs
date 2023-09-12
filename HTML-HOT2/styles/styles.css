@@ -1,0 +1,105 @@
+body {
+    background-color: lightblue;
+}
+/*Logo */
+#logo {
+    float: left;
+    width: 150px;
+}
+/* Menu */
+#menu {
+    float: right;
+    width: 150px;
+}
+/* Navigation Menu */
+#nav_menu {
+    float: left;
+    text-align: center;
+}
+#nav_menu ul li {
+    display: inline;
+    padding: 80px;
+    font-size: 300%;
+}
+#nav_menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+#nav_menu ul li a:hover {
+    color: red;
+}
+#nav_menu ul li a:visited{
+    color: red;
+}
+#nav_menu ul li a:active {
+    color: yellow;
+}
+/* Main */
+.clear {
+    clear: both;
+}
+.mt-4 {
+    background-color: purple;
+    color: white;
+    
+}
+div h1 {
+    font-size: 300%;
+}
+main h2 {
+    font-size: 200%;
+}
+main p {
+    font-size: 200%;
+}
+/*Footer*/
+footer {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: white;
+    font-size: 70%;
+    text-align: center;
+}
+/* History Columns */
+article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid black;
+}
+article h1 {
+    font-size: 200%;
+}
+article p {
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+/* Menu List */
+main li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#pancakes {
+    background-color: black;
+    color: white;
+}
+#scramblers {
+    background-color: red;
+    color: yellow;
+}
+#eggs {
+    background-color: purple;
+    color: aqua;
+}
+#omelette {
+    background-color: orange;
+    color: brown;
+}
+#classic {
+    background-color: gray;
+    color: black;
+}
