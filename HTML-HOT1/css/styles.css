@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c72191f8e9605b8a9c902bd2eab178ff6c721f2f
 /* This is the CSS for HTML HOT#1 */
 body {
     background-color:beige;
@@ -6,4 +10,17 @@ body {
 
 #wrapper {
     text-align:center;
+<<<<<<< HEAD
+=======
+=======
+/* This is the CSS for HTML HOT#1 */
+body {
+    background-color:beige;
+    color:purple
+}
+
+#wrapper {
+    text-align:center;
+>>>>>>> 15e2ab3dfa28867a14760e04cc8fab91f67f44a5
+>>>>>>> c72191f8e9605b8a9c902bd2eab178ff6c721f2f
 }
