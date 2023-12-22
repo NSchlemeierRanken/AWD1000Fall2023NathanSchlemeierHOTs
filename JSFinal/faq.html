@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Rock Paper Scissors</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="game.html">Game</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</head>
+<body>
+    <div class="faq-container">
+        <h2>Rock,Paper,Scissors FAQ</h2>
+    
+        <div class="faq-question" onclick="showAnswer('question1')">What is Rock,Paper,Scissors?</div>
+        <div id="question1" class="faq-answer">Rock,Paper,Scissors is a simple hand game usually played between two people in which each plaer simultaneously forms one of three shapes with their hand. The shapes are Rock (a closed fist), Paper (a flat hand) and Scissors (a fist with the index finger and middle finger extended forming a v)</div>
+    
+        <div class="faq-question" onclick="showAnswer('question2')">Why is the game played?</div>
+        <div id="question2" class="faq-answer">Rock paper scissors is often used as a fair choosing method between two people, similar to coin flipping, drawing straws, or throwing dice in order to settle a dispute or make an unbiased group decision. Unlike truly random selection methods, however, rock paper scissors can be played with some degree of skill by recognizing and exploiting non-random behavior in opponents.</div>
+    
+        <div class="faq-question" onclick="showAnswer('question3')">How do you win?</div>
+        <div id="question3" class="faq-answer">First you say "Rock, paper, scissors, shoot" when shoot is said you form your hand into either the rock, paper, or scissor formation and depending on what the other person forms their hand into will decide who wins and who loses.<br>The rules are as follows:<br>- Rock crushes scissors.<br>- Scissors cuts paper.<br>- Paper covers rock.</div>
+      </div>
+     <script src="js/faq.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
